@@ -12,14 +12,14 @@ import java.util.concurrent.TimeoutException;
 @org.springframework.context.annotation.Configuration
 public class Configuration {
     @Value("${unlaunch.server.key}")
-    private String serverKey;
+    private String sdkKey;
 
     private static final Logger logger = LoggerFactory.getLogger(Configuration.class);
 
     @Bean
     public UnlaunchClient unlaunchClient()  {
         UnlaunchClient client = UnlaunchClient.builder().
-                sdkKey(serverKey).
+                sdkKey(sdkKey).
                 pollingInterval(30, TimeUnit.SECONDS).
                 eventsFlushInterval(30, TimeUnit.SECONDS).
                 eventsQueueSize(500).

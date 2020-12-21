@@ -1,3 +1,6 @@
 unlaunch:
   server:
     key: PASTE_SERVER_KEY_HERE_FROM_SETTINGS
+
+server:
+  port: 8085
