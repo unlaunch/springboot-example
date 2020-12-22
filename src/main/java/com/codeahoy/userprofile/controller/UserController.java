@@ -1,7 +1,6 @@
 package com.codeahoy.userprofile.controller;
 
 import com.codeahoy.userprofile.service.UserService;
-import io.unlaunch.UnlaunchClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

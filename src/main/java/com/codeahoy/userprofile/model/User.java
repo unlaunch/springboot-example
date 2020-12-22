@@ -1,7 +1,5 @@
 package com.codeahoy.userprofile.model;
 
-import java.util.List;
-
 public class User {
     public String name;
     public String debugReason;

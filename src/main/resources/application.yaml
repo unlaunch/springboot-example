@@ -1,6 +1,6 @@
 unlaunch:
   server:
-    key: PASTE_SERVER_KEY_HERE_FROM_SETTINGS
+    key: prod-mob-e0ee3425-faed-406e-8bc6-853d7411a850 # PASTE_SERVER_KEY_HERE_FROM_SETTINGS
 
 server:
   port: 8085
